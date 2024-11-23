@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="quiz-container">
+      <h1 class="quiz-title">Khmer Language Quiz</h1>
+      <form id="quiz-form">
+        <!-- Numbers in Khmer -->
+        <div class="question-card">
+          <h3>1. How to say 38 in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q1" value="A" />
+              <span>A) mphei pi (ម្ភៃពីរ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="B" />
+              <span>B)​ Ha bram Bey (ហាប្រាំបី)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="C" />
+              <span>C) Sam Bram Bey (សាមប្រាំបី)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q1" value="D" />
+              <span>D) Huk Bram Boun (ហុកប្រាំបួន)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>2. How to say 15 in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q2" value="A" />
+              <span>A) Bram Mouy (ប្រាំមួយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="B" />
+              <span>B) Dob Bram (ដប់ប្រាំ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="C" />
+              <span>C) Bram Boun (ប្រាំបួន)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q2" value="D" />
+              <span>D) Ha Pram (ហាប្រាំ)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>3. How to say 100 in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q3" value="A" />
+              <span>A) Mouy Roy (មួយរយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q3" value="B" />
+              <span>B) Roy Mouy (រយមួយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q3" value="C" />
+              <span>C) Dob Roy (ដប់រយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q3" value="D" />
+              <span>D) Bram Mouy Roy (ប្រាំមួយរយ)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Pronouns -->
+        <div class="question-card">
+          <h3>4. What does "Khnhom" (ខ្ញុំ) mean?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q4" value="A" />
+              <span>A) You</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q4" value="B" />
+              <span>B) I</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q4" value="C" />
+              <span>C) They</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q4" value="D" />
+              <span>D) We</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>5. What does "Neak" (អ្នក) mean?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q5" value="A" />
+              <span>A) He</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="B" />
+              <span>B) She</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="C" />
+              <span>C) You</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q5" value="D" />
+              <span>D) They</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Possessive Pronouns -->
+        <div class="question-card">
+          <h3>6. What does "robos knhom" (របស់ខ្ញុំ) mean?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q6" value="A" />
+              <span>A) My​​/ Mine</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="B" />
+              <span>B) His</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="C" />
+              <span>C) Your</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q6" value="D" />
+              <span>D) Their</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>7. What does "robos neak" (របស់អ្នក) mean?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q7" value="A" />
+              <span>A) Yours/Your</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q7" value="B" />
+              <span>B) His</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q7" value="C" />
+              <span>C) Her</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q7" value="D" />
+              <span>D) Our</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Asking and Responding -->
+        <div class="question-card">
+          <h3>8. How to say "How are you?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q8" value="A" />
+              <span>A) Nis chea neak na (នេះជាអ្នកណា)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q8" value="B" />
+              <span>B) kot sok sabai (គាត់សុខសប្បាយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q8" value="C" />
+              <span>C) Neak sok sabai te? (អ្នកសុខសប្បាយទេ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q8" value="D" />
+              <span>D) Neak na saby? (អ្នកណា​ សប្យាយ)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>
+            9. How do you respond to "How are you?" with "I am fine" in Khmer?
+          </h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q9" value="A" />
+              <span>A) ​Neak sok sabai te? (អ្នកសុខសប្បាយទេ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q9" value="B" />
+              <span>B) Khnhom sok sabai (ខ្ញុំសុខសប្បាយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q9" value="C" />
+              <span>C) Nis robos neak (​នេះរបស់អ្នក)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q8" value="D" />
+              <span>D) Neak chmos ai? (អ្នកឈ្មោះអី?)</span>
+            </label>
+          </div>
+        </div>
+        <!-- Asking "Already/Yet" -->
+        <div class="question-card">
+          <h3>10. How to say "Have you eaten yet?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q10" value="A" />
+              <span>A) Neak nham bai nov? (អ្នកញ៉ាំបាយនៅ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="B" />
+              <span>B) Neak keng haey nov? (អ្នកគេងហើយនៅ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="C" />
+              <span>C) nhom nham rice? (ខ្ញុំញ៉ាំបាយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q10" value="D" />
+              <span>D) Neak nham? (អ្នកញ៉ាំ?)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>
+            11. How do you respond to "Have you eaten yet?" with "Yes, I already
+            ate"?
+          </h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q11" value="A" />
+              <span>A) Khnhom nham bai nov. (ខ្ញុំញ៉ាំបាយនៅ។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q11" value="B" />
+              <span>B) Khnhom nham bai haey. (ខ្ញុំញ៉ាំបាយហើយ។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q11" value="C" />
+              <span>C) Khnhom nov te. (ខ្ញុំនៅទេ។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q11" value="D" />
+              <span>D) Sok sabai nov. (សុខសប្បាយនៅ។)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Asking with "What/Where/When" -->
+        <div class="question-card">
+          <h3>12. How to ask "What is your name?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q12" value="A" />
+              <span>A) Neak chmoh​ Sok. (អ្នកឈ្មោះសុក។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q12" value="B" />
+              <span>B) Neak chmoh srok? (អ្នកឈ្មោះស្រុក?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q12" value="C" />
+              <span>C) Neak sok nov ei? (អ្នកសុខនៅអី?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q12" value="D" />
+              <span>D) Neak chmoh ei? (អ្នកឈ្មោះអ្វី?)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>13. How to say "Where are you going?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q13" value="A" />
+              <span>A) Neak tov nos? (អ្នកទៅនោះ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q13" value="B" />
+              <span>B) Neak sok sabai ei? (អ្នកសុខសប្បាយអី?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q13" value="C" />
+              <span>C) Neak tov na? (អ្នកទៅណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q13" value="D" />
+              <span>D) Neak tov chmoh? (អ្នកទៅឈ្មោះ?)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>14. How to ask "When will you come?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q14" value="A" />
+              <span>A) Neak tov na? (អ្នកទៅណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q14" value="B" />
+              <span>B) Neak ning mok pel na? (អ្នកនឹងមកពេលណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q14" value="C" />
+              <span>C) Neak mok nov ei? (អ្នកមកនៅអី?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q14" value="D" />
+              <span>D) Neak sok sabai mok? (អ្នកសប្បាយ?)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Testing Vocabulary -->
+        <div class="question-card">
+          <h3>15. How to say "I am playing with my friend" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q15" value="A" />
+              <span>A) Khnhom leng chea mouy neak. (ខ្ញុំលេងជាមួយអ្នក។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q15" value="B" />
+              <span>B) Khnhom chea mouy kot. (ខ្ញុំលេងជាមួយគាត់)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q15" value="C" />
+              <span>C) Khnhom leng chea mitt neak. (ខ្ញុំលេងជាមិត្តអ្នក។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q15" value="D" />
+              <span
+                >D) Khnhom leng chea muy mitt robos khnhom.
+                (ខ្ញុំលេងជាមួយមិត្តរបស់ខ្ញុំ។)</span
+              >
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>16. How to say "I eat rice" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q16" value="A" />
+              <span>A)kot nham by (គាត់ញ៉ាំបាយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q16" value="B" />
+              <span>B) Khnhom nham nom (ខ្ញុំញ៉ាំនំ។)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q16" value="C" />
+              <span>C) Khnhom nham bai (ខ្ញុំញ៉ាំបាយ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q16" value="D" />
+              <span>D) Khnhom ot nham by (ខ្ញុំអត់ញ៉ាំបាយ។)</span>
+            </label>
+          </div>
+        </div>
+        <div class="question-card">
+          <h3>17. How do you say "Sunday" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q17" value="A" />
+              <span>A) Thngai Sao (ថ្ងៃសៅរ៍)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q17" value="B" />
+              <span>B) Thngai A​thit (ថ្ងៃអាទិត្យ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q17" value="C" />
+              <span>C) Thngai Chan (ថ្ងៃច័ន្ទ)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q17" value="D" />
+              <span>D) Thngai Prohos (ថ្ងៃព្រហស្បតិ៍)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Who -->
+        <div class="question-card">
+          <h3>18. How do you say "Who?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q18" value="A" />
+              <span>A) neak na? (អ្នកណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q18" value="B" />
+              <span>B) neak nos? (អ្នកនោះ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q18" value="C" />
+              <span>C) Neak tov na? (អ្នកទៅណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q18" value="D" />
+              <span>D) Neak chmoh ei? (អ្នកឈ្មោះអ្វី?)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <h3>19. How do you say "Who is your friend?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q19" value="A" />
+              <span>A) Mitt neak chea neak na? (មិត្តអ្នកជាអ្នកណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q19" value="B" />
+              <span>B) Mitt neak tov na? (មិត្តអ្នកទៅណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q19" value="C" />
+              <span>C) Mitt neak sok sabai te? (មិត្តអ្នកសុខសប្បាយទេ?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q19" value="D" />
+              <span>D) Mitt neak chmoh ei? (មិត្តអ្នកឈ្មោះអ្វី?)</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Whose -->
+        <div class="question-card">
+          <h3>20. How do you say "Whose book is this?" in Khmer?</h3>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="q20" value="A" />
+              <span>A) Nis seauphov robos neak na? (នេះសៀវភៅរបស់អ្នកណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q20" value="B" />
+              <span>B) Seauphov nis tov na? (សៀវភៅនេះទៅណា?)</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="q20" value="C" />
+              <span
+                >C) Seauphov robos neak chmoh ei?
+                (សៀវភៅរបស់អ្នកឈ្មោះអ្វី?)</span
+              >
+            </label>
+            <label class="option">
+              <input type="radio" name="q20" value="D" />
+              <span>D) Nis robos neak na? (នេះរបស់អ្នកណា?)</span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="results"></div>
+      <button id="retake-quiz" class="hidden">Retake Quiz</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
